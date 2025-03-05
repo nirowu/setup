@@ -33,17 +33,18 @@ fi
 
 step "Install chezmoi"
 brew install chezmoi
-chezmoi init zxkyjimmy --apply --force
+# chezmoi init zxkyjimmy --apply --force
 
 step "Install utils"
 brew install htop tree openssh cmake gh julia tmux neovim
 brew install --cask google-chrome arc
 brew install --cask visual-studio-code
-brew install --cask ghostty hyper
-brew install --cask mos the-unarchiver
+brew install --cask ghostty 
+# brew install --cask hyper
 brew install --cask topnotch # hide the notch
-brew install --cask slack telegram discord notion webex
+brew install --cask discord anytype
 brew install --cask zen-browser
+brew install --cask rectangle
 
 step "SSH"
 [ -d ~/.ssh ] || mkdir ~/.ssh
