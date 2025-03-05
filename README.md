@@ -14,7 +14,7 @@ sudo apt install git
 
 ### Clone and install
 ```
-git clone https://github.com/zxkyjimmy/setup
+git clone https://github.com/nirowu/setup
 cd setup
 ./install.sh
 ```
